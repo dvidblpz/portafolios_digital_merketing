@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- Portafolio personal de David Bernal Paz. Sitio estático bilingüe: HTML + CSS + JavaScript. -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="David Bernal Paz: portafolio de marketing digital creativo, animación, motion design y desarrollo web.">
+  <title>David Bernal Paz — Creative Marketing, Motion & Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <!-- Cabecera fija: identidad personal, navegación y selector de idioma. -->
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="Ir al inicio"><span class="mark">D.</span><span class="wordmark-text">DAVID BERNAL PAZ<span>MARKETING · MOTION · CODE</span></span></a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#proyectos" data-i18n="navWork">Proyectos</a>
+      <a href="#servicios" data-i18n="navServices">Servicios</a>
+      <a href="#sobre-mi" data-i18n="navAbout">Sobre mí</a>
+      <a href="#contacto" data-i18n="navContact">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" id="languageToggle" type="button" aria-label="Switch language">EN <span>↗</span></button>
+      <a class="header-cta" href="#contacto"><span data-i18n="letsTalk">Hablemos</span><span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- Contenido principal del portafolio. -->
+  <main>
+    <!-- Hero: propuesta de valor y composición animada de bienvenida. -->
+    <section class="hero section-shell" id="inicio">
+      <div class="hero-topline reveal"><span><i class="status-dot"></i><span data-i18n="available">DISPONIBLE PARA PROYECTOS SELECCIONADOS</span></span><span>MX / GLOBAL</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">CREATIVIDAD CON INTENCIÓN</span></p><p class="hero-name reveal">DAVID BERNAL PAZ <span>· MULTIMEDIA / DIGITAL</span></p>
+          <h1 class="hero-title reveal"><span data-i18n="heroLine1">Ideas que</span><br><span class="outline-text" data-i18n="heroLine2">se mueven.</span><span class="gold-period">✳</span></h1>
+          <p class="hero-description reveal" data-i18n="heroDescription">Combino marketing digital, animación y desarrollo para crear experiencias que capturan miradas y convierten ideas en marcas memorables.</p>
+          <div class="hero-actions reveal"><a class="button button-gold" href="#proyectos"><span data-i18n="exploreWork">Explorar proyectos</span><span>↘</span></a><a class="text-link" href="#sobre-mi"><span data-i18n="meetMe">Conóceme</span><span>↓</span></a></div>
+          <div class="hero-meta reveal"><div><strong>03</strong><span data-i18n="creativeFields">DISCIPLINAS CREATIVAS</span></div><div><strong>01</strong><span data-i18n="unifiedVision">VISIÓN INTEGRADA</span></div><div><strong>∞</strong><span data-i18n="possibilities">POSIBILIDADES</span></div></div>
+        </div>
+        <div class="hero-art reveal" aria-label="Composición abstracta 3D dorada">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-core"><div class="core-shine"></div><span>B.</span></div>
+          <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+          <div class="art-chip chip-top"><span class="chip-dot"></span> CREATIVE / TECH</div>
+          <div class="art-chip chip-bottom"><span>01</span><span data-i18n="heroArtCaption">ESTRATEGIA × MOVIMIENTO</span></div>
+          <div class="art-cross cross-one">✳</div><div class="art-cross cross-two">+</div>
+        </div>
+      </div>
+      <div class="hero-bottomline"><span data-i18n="scrollExplore">DESLIZA PARA EXPLORAR</span><div class="scroll-line"><span></span></div><span>01 — 05</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Especialidades"><div class="ticker-track"><span>MARKETING DIGITAL</span><b>✳</b><span>MOTION DESIGN</span><b>✳</b><span>CREATIVE DEVELOPMENT</span><b>✳</b><span>BRAND STORYTELLING</span><b>✳</b><span>MARKETING DIGITAL</span><b>✳</b><span>MOTION DESIGN</span><b>✳</b><span>CREATIVE DEVELOPMENT</span><b>✳</b><span>BRAND STORYTELLING</span><b>✳</b></div></section>
+
+    <!-- Proyectos: Dulce Invitación, Radix HU, ARIS y conceptos de campaña. -->
+    <section class="projects section-shell" id="proyectos">
+      <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="selectedWork">TRABAJO SELECCIONADO</span></p><h2 data-i18n="projectsTitle">Ideas en <em>acción.</em></h2></div><p class="section-intro" data-i18n="projectsIntro">Proyectos propios y conceptos creativos que exploran cómo conectar diseño, tecnología y objetivos de marca.</p></div>
+      <div class="project-filters reveal" role="group" aria-label="Filtrar proyectos"><button class="filter-button active" data-filter="all" data-i18n="filterAll">Todos (06)</button><button class="filter-button" data-filter="real" data-i18n="filterReal">Proyecto propio</button><button class="filter-button" data-filter="concept" data-i18n="filterConcept">Conceptuales</button></div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal" data-type="real">
+          <a class="project-visual invitation-visual" href="#contacto" aria-label="Consultar proyecto Dulce Invitación">
+            <div class="visual-frame frame-a"></div><div class="invitation-window"><span class="tiny-label">DULCE INVITACIÓN / DIGITAL EXPERIENCE</span><div class="invitation-script">Your day.<br><i>Your story.</i></div><div class="invitation-bottom"><span>INVITATIONS WITH A LITTLE MAGIC</span><span>↗</span></div></div>
+            <span class="visual-corner">01 / REAL</span><span class="visual-arrow">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-category" data-i18n="categoryWeb">DISEÑO WEB · UX/UI · DESARROLLO</span><h3>Dulce Invitación</h3><p data-i18n="dulceDesc">Experiencias de invitación digital con diseño temático, interacción y enfoque mobile-first.</p></div><span class="project-number">01</span></div>
+        </article>
+        <article class="project-card reveal" data-type="concept">
+          <a class="project-visual product-visual" href="#contacto" aria-label="Consultar concepto de campaña de producto">
+            <div class="product-halo"></div><div class="product-pedestal"></div><div class="product-bottle"><div class="bottle-cap"></div><div class="bottle-label">NOIR<br><small>01 / ÉDITION</small></div></div><div class="product-orb orb-a"></div><div class="product-orb orb-b"></div>
+            <span class="visual-corner">02 / CONCEPT</span><span class="visual-arrow">↗</span><span class="product-tag">A SCENT<br>AFTER DARK</span>
+          </a>
+          <div class="project-info"><div><span class="project-category" data-i18n="categoryCampaign">DIRECCIÓN DE ARTE · CAMPAÑA</span><h3>NOIR — After Dark</h3><p data-i18n="noirDesc">Concepto de campaña para fragancia premium, pensado para contenido social y video corto.</p></div><span class="project-number">02</span></div>
+        </article>
+        <article class="project-card reveal" data-type="concept">
+          <a class="project-visual motion-visual" href="#contacto" aria-label="Consultar concepto de motion graphics">
+            <div class="motion-grid"></div><div class="motion-sphere"></div><div class="motion-type">MOVE<br><span>BEYOND.</span></div><div class="motion-caption">MOTION STUDY / 001</div>
+            <span class="visual-corner">03 / CONCEPT</span><span class="visual-arrow">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-category" data-i18n="categoryMotion">MOTION GRAPHICS · 3D</span><h3>Move Beyond</h3><p data-i18n="moveDesc">Estudio visual sobre energía, volumen y tipografía cinética para una marca deportiva ficticia.</p></div><span class="project-number">03</span></div>
+        </article>
+        <article class="project-card reveal" data-type="concept">
+          <a class="project-visual social-visual" href="#contacto" aria-label="Consultar concepto de campaña para redes sociales">
+            <div class="social-top"><span>FIELD NOTES / 2026</span><span>CAMPAIGN 04</span></div><div class="social-copy">MAKE<br><em>ROOM</em><br>TO GROW.</div><div class="social-shapes"><i></i><i></i><i></i></div><div class="social-footer"><span>IDEA → CONTENT → COMMUNITY</span><span>✳</span></div>
+            <span class="visual-corner">04 / CONCEPT</span><span class="visual-arrow">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-category" data-i18n="categorySocial">ESTRATEGIA SOCIAL · CONTENIDO</span><h3>Field Notes</h3><p data-i18n="fieldDesc">Dirección creativa para una campaña social conceptual enfocada en comunidad y crecimiento.</p></div><span class="project-number">04</span></div>
+        </article>
+        <article class="project-card reveal" data-type="real">
+          <a class="project-visual radix-visual" href="#contacto" aria-label="Consultar proyecto Radix HU">
+            <div class="radix-grid"></div><div class="radix-cross">✳</div><div class="radix-title">RADIX<span>HU</span></div><div class="radix-ui"><i></i><i></i><i></i><b>TRAINING / IMAGING</b></div>
+            <span class="visual-corner">05 / DEVELOPMENT</span><span class="visual-arrow">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-category">PHP · MYSQL · AUTHENTICATION</span><h3>Radix HU</h3><p data-i18n="radixDesc">Plataforma de capacitación para Radiología: autenticación, sesiones y acceso por roles. Proyecto en desarrollo; módulos avanzados en planificación.</p></div><span class="project-number">05</span></div>
+        </article>
+        <article class="project-card reveal" data-type="real">
+          <a class="project-visual aris-visual" href="#contacto" aria-label="Consultar proyecto ARIS">
+            <div class="aris-top"><span>ARIS / OPERATIONS</span><span>01—04</span></div><div class="aris-title">CONTROL<br><em>INVENTORY.</em></div><div class="aris-bars"><i></i><i></i><i></i><i></i><i></i></div><div class="aris-bottom">PHP + MYSQL / DASHBOARD CONCEPT</div>
+            <span class="visual-corner">06 / SYSTEMS</span><span class="visual-arrow">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-category">PHP · MYSQL · DASHBOARD</span><h3>ARIS — Inventory System</h3><p data-i18n="arisDesc">Sistema web para gestión de inventario con autenticación y roles; reportes, alertas y auditoría definidos como mejoras del proyecto.</p></div><span class="project-number">06</span></div>
+        </article>
+      </div>
+      <p class="project-disclaimer" data-i18n="projectDisclaimer">Nota: NOIR, Move Beyond y Field Notes son conceptos ficticios, no campañas oficiales. Dulce Invitación es un proyecto propio. Radix HU y ARIS se presentan como proyectos de desarrollo en curso; las funciones indicadas como mejoras o planificación no deben confundirse con entregables finalizados.</p>
+    </section>
+
+    <!-- Manifiesto: frase de posicionamiento de marca personal. -->
+    <section class="manifesto">
+      <div class="manifesto-inner section-shell"><p class="eyebrow reveal"><span class="eyebrow-line"></span><span data-i18n="belief">MI FILOSOFÍA</span></p><h2 class="reveal" data-i18n="manifestoTitle">No se trata solo de verse bien.<br><em>Se trata de dejar huella.</em></h2><div class="manifesto-foot reveal"><span>STRATEGY FIRST. CREATIVITY ALWAYS.</span><span>↘</span></div></div>
+    </section>
+
+    <!-- Servicios y disciplinas creativas que se ofrecen. -->
+    <section class="services section-shell" id="servicios">
+      <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="whatIDo">QUÉ PUEDO APORTAR</span></p><h2 data-i18n="servicesTitle">Creatividad que<br><em>conecta disciplinas.</em></h2></div><p class="section-intro" data-i18n="servicesIntro">Un perfil híbrido para equipos que necesitan pensar, diseñar y construir sin perder de vista el objetivo.</p></div>
+      <div class="service-list">
+        <article class="service-row reveal"><span class="service-index">01</span><div><h3 data-i18n="service1Title">Marketing digital creativo</h3><p data-i18n="service1Desc">Conceptos de campaña, contenido para redes, narrativa de marca y piezas orientadas a objetivos.</p></div><span class="service-symbol">↗</span></article>
+        <article class="service-row reveal"><span class="service-index">02</span><div><h3 data-i18n="service2Title">Motion design & animación</h3><p data-i18n="service2Desc">Animación 2D/3D, gráficos en movimiento, composición y contenido audiovisual.</p></div><span class="service-symbol">✳</span></article>
+        <article class="service-row reveal"><span class="service-index">03</span><div><h3 data-i18n="service3Title">Diseño y desarrollo web</h3><p data-i18n="service3Desc">Landing pages, experiencias interactivas y prototipos responsivos con HTML, CSS y JavaScript.</p></div><span class="service-symbol">⌘</span></article>
+        <article class="service-row reveal"><span class="service-index">04</span><div><h3 data-i18n="service4Title">Contenido visual y storytelling</h3><p data-i18n="service4Desc">Traduzco ideas complejas en mensajes visuales claros, atractivos y fáciles de recordar.</p></div><span class="service-symbol">◎</span></article>
+      </div>
+    </section>
+
+    <!-- Perfil profesional y herramientas. -->
+    <section class="about section-shell" id="sobre-mi">
+      <div class="about-art reveal"><!-- Fotografía profesional de David: reemplaza el monograma en esta composición. -->
+      <img class="about-photo" src="CV_Photo.png" alt="Fotografía profesional de David Bernal Paz" loading="lazy"><div class="about-orbit"></div><div class="about-label">MULTIMEDIA<br>× MARKETING<br>× CODE</div><span class="about-stamp">BUILT WITH<br>INTENTION ✳</span></div>
+      <div class="about-copy"><p class="eyebrow reveal"><span class="eyebrow-line"></span><span data-i18n="aboutEyebrow">DE LA IDEA A LA EXPERIENCIA</span></p><h2 class="reveal" data-i18n="aboutTitle">Creativo por visión.<br><em>Ingenioso por método.</em></h2><p class="about-paragraph reveal" data-i18n="aboutParagraph">Soy David Bernal Paz, profesional de Multimedia y Animación Digital con interés en unir estrategia, diseño, animación y tecnología. Me gusta transformar ideas en experiencias digitales con intención, desde la primera propuesta visual hasta su implementación.</p><p class="about-paragraph muted reveal" data-i18n="aboutParagraph2">Busco colaborar con agencias y equipos de marca que valoren la curiosidad, la experimentación y las ideas bien ejecutadas.</p><div class="skills reveal"><span>HTML / CSS / JS</span><span>2D / 3D</span><span>Motion Design</span><span>UX / UI</span><span>Creative Strategy</span></div><a class="text-link reveal" href="#contacto"><span data-i18n="startConversation">Empecemos una conversación</span><span>↗</span></a></div>
+    </section>
+
+    <!-- Contacto: actualiza el correo y los enlaces cuando lo publiques. -->
+    <section class="contact section-shell" id="contacto"><div class="contact-glow"></div><p class="eyebrow reveal"><span class="eyebrow-line"></span><span data-i18n="contactEyebrow">EL SIGUIENTE CAPÍTULO</span></p><h2 class="reveal" data-i18n="contactTitle">¿Creamos algo<br><em>inolvidable?</em></h2><p class="contact-intro reveal" data-i18n="contactIntro">Cuéntame qué quieres lograr. Exploremos cómo convertir esa idea en una experiencia que conecte con tu audiencia.</p><a class="contact-email reveal" href="mailto:dvidpz@gmail.com">dvidpz@gmail.com <span>↗</span></a><div class="contact-bottom reveal"><span data-i18n="replaceEmail">REEMPLAZA ESTE CORREO POR TU CONTACTO PROFESIONAL</span><span>MÉXICO · AVAILABLE FOR CREATIVE COLLABORATIONS</span></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#inicio"><span class="mark">D.</span><span class="wordmark-text">DAVID BERNAL PAZ<span>MARKETING · MOTION · CODE</span></span></a><span>© <span id="year"></span> <span data-i18n="footerText">Hecho con intención.</span></span><a href="#inicio" class="back-top"><span data-i18n="backTop">VOLVER ARRIBA</span> ↑</a></footer>
+  <!-- Lógica interactiva: idioma, filtros, menú y animaciones al hacer scroll. -->
+  <script src="script.js"></script>
+</body>
+</html>
