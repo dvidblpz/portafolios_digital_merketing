@@ -24,7 +24,7 @@ const translations = {
     aboutParagraph2:"Busco colaborar con agencias y equipos de marca que valoren la curiosidad, la experimentación y las ideas bien ejecutadas.",
     startConversation:"Empecemos una conversación",contactEyebrow:"EL SIGUIENTE CAPÍTULO",contactTitle:"¿Creamos algo<br><em>inolvidable?</em>",
     contactIntro:"Cuéntame qué quieres lograr. Exploremos cómo convertir esa idea en una experiencia que conecte con tu audiencia.",
-    replaceEmail:"REEMPLAZA ESTE CORREO POR TU CONTACTO PROFESIONAL",footerText:"Hecho con intención.",backTop:"VOLVER ARRIBA"
+    replaceEmail:"REEMPLAZA ESTE CORREO POR TU CONTACTO PROFESIONAL",whatsappCta:"Contactar por WhatsApp",footerText:"Hecho con intención.",backTop:"VOLVER ARRIBA"
   },
   en: {
     navWork:"Work",navServices:"Services",navAbout:"About",navContact:"Contact",letsTalk:"Let's talk",
@@ -49,7 +49,7 @@ const translations = {
     aboutParagraph2:"I’m looking to collaborate with agencies and brand teams that value curiosity, experimentation and thoughtful execution.",
     startConversation:"Let’s start a conversation",contactEyebrow:"THE NEXT CHAPTER",contactTitle:"Shall we create<br><em>something memorable?</em>",
     contactIntro:"Tell me what you want to achieve. Let’s explore how to turn that idea into an experience that connects with your audience.",
-    replaceEmail:"REPLACE THIS EMAIL WITH YOUR PROFESSIONAL CONTACT",footerText:"Made with intention.",backTop:"BACK TO TOP"
+    replaceEmail:"REPLACE THIS EMAIL WITH YOUR PROFESSIONAL CONTACT",whatsappCta:"Contact me on WhatsApp",footerText:"Made with intention.",backTop:"BACK TO TOP"
   }
 };
 
